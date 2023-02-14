@@ -1,0 +1,113 @@
+.Get1body{
+    padding: 10% 25%;
+}
+
+@media (max-width:600px) {
+    .Get1body{
+        padding: 6% 6%;
+    }
+}
+
+
+.get1{
+    line-height: 250%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px; 
+    background-color: #EEEDEE
+}
+
+
+.get1 h1{
+    font-size: 25px;
+    padding: 5% 20%;
+    color: black;
+}
+
+
+.individual{
+    display: flex;
+    border: 1px solid red;
+    border-style: none;
+    border-radius: 40px;
+    background-color: #E4E4E4;
+    width: 75%;
+    margin: 0 auto;
+    height: 65%;
+    justify-content: space-around;
+}
+
+
+.individual1 {
+    border: 2px solid green;
+    height: 100%;
+    width: 50%;
+    border-radius: 40px;
+    position: relative;
+    background-color: white;
+    color: black;
+    border-style: none;
+}
+
+
+.indbus{
+    text-decoration: none;
+    border: 2px solid green;
+    border-style: none;
+    height: 100%;
+    width: 50%;
+    border-radius: 40px;
+    color: black;
+    background-color: #E4E4E4;
+
+}
+
+
+.get1 input{
+    max-width: 80%;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+    margin: 0 auto;
+}
+
+
+.getinput{
+    width: 70%;
+}
+
+
+.gt1mreq{
+    padding: 2% 0%;
+}
+
+
+.gt1mreq h5{
+    color: #7C20BE;
+    font-size: 15px;
+}
+
+
+.getlog{
+    width: 70%;
+    background-color:#7C20BE;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+
+.get1nav{
+    display: flex;
+    margin: 0 auto;
+    padding: 7% 0%;
+}
+
+
+.get1nav h5{
+    color: #7C20BE;
+    font-size: 15px;
+}

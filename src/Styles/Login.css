@@ -1,0 +1,72 @@
+.formbody{
+    padding: 10% 25%;
+}
+@media (max-width:600px) {
+    .formbody{
+        padding: 6% 6%;
+    }
+}
+
+.form{
+    /* border: 3px solid rgb(54, 7, 7); */
+    border-radius: 2%;
+    line-height: 250%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 35px; 
+    background-color: #EEEDEE 
+
+}
+.form h1{
+    font-size: 25px;
+    color: black;
+    padding-bottom: 0%;
+    padding-top: 10%;
+
+}
+
+.form input{
+    max-width: 80%;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+    margin: 0 auto; 
+    width: 70%;
+}
+
+.formreq{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 7%;
+    padding-top: 3%;
+    padding: 0px 11px;
+
+}
+
+ .formreq h5{
+    color: #7C20BE;
+    font-size: 15px;
+}
+
+.form button{
+    width: 70%;
+    background-color:#7C20BE;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    margin: 0 auto;
+}
+
+.formnav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0% 30%;
+    padding-bottom: 7%;
+    padding-top: 3%;
+}
+
+.formnav h5{
+    color: #7C20BE;
+    font-size: 15px;
+}

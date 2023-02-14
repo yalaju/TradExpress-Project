@@ -1,0 +1,21 @@
+.sec2body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+.you{
+    border: 1px solid rgb(0, 0, 0);
+}
+/* .you table{
+    color: red;
+    text-align: center;
+} */
+
+/* @media (max-width:700px) {
+    .sec2body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid white;
+    }
+} */

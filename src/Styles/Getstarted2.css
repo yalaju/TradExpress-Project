@@ -1,0 +1,117 @@
+.Get2body{
+    padding: 10% 25%;
+}
+@media (max-width:600px) {
+    .Get2body{
+        padding: 6% 6%;
+    }
+}
+
+
+.get2{
+    line-height: 250%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px; 
+    background-color: #EEEDEE
+}
+
+
+.get2 h1{
+    font-size: 25px;
+    padding: 5% 20%;
+    color: black;
+}
+
+
+
+.individual{
+    display: flex;
+    border: 1px solid red;
+    border-style: none;
+    border-radius: 40px;
+    background-color: #E4E4E4;
+    width: 75%;
+    margin: 0 auto;
+    height: 65%;
+    justify-content: space-around;
+}
+
+
+.individual2 {
+    border: 2px solid green;
+    height: 100%;
+    width: 50%;
+    border-radius: 40px;
+    position: relative;
+    color: black;
+    border-style: none;
+    background-color: white;
+
+
+}
+
+
+.indbus2{
+    text-decoration: none;
+    border: 2px solid green;
+    border-style: none;
+    height: 100%;
+    width: 50%;
+    border-radius: 40px;
+    color: black;
+    background-color: #E4E4E4;
+
+
+}
+
+
+
+.get2 input{
+    /* max-width: 80%; */
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+    margin: 0 auto;
+}
+
+
+.getinput2{
+    width: 70%;
+}
+
+
+.gt2mreq{
+    padding: 2% 0%;
+}
+
+
+.gt2mreq h5{
+    color: #7C20BE;
+    font-size: 15px;
+}
+
+
+.get2log{
+    width: 70%;
+    background-color:#7C20BE;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+
+.get2nav{
+    display: flex;
+    margin: 0 auto;
+    padding: 7% 0%;
+}
+
+
+.get2nav h5{
+    color: #7C20BE;
+    font-size: 15px;
+}

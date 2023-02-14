@@ -1,0 +1,84 @@
+.lastbody{
+    /* border: 1px solid red; */
+    padding: 10% 25%;
+    
+}
+
+/* @media (max-width:600px) {
+    .Buybody{
+        padding: 6% 6%;
+    }
+} */
+
+.lastpage{
+    /* line-height: 250%; */
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 55px; 
+    background-color: #EEEDEE;
+
+}
+.lastpage1{
+    padding-top: 10%;
+    line-height: 75%
+
+}
+
+.lastpage1 h5{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    width: 30%;
+    font-size: 150%;
+
+}
+
+.lastpage1 h4{
+    /* font-size: 25px;
+    padding: 0% 20%;
+    color: black; */
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    width: 50%;
+    font-size: 200%;
+    padding-top: 4%;
+
+
+
+}
+.lastpage img{
+    width: 15%;
+    padding-top: 4%;
+}
+
+.lastpage p{
+    border: 1px solid red;
+    width: 72%;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 2% 2%;
+    border-style: none;
+}
+
+.logb{
+    width: 40%;
+    background-color:#7C20BE;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    margin: 0 auto;
+    padding: 2% 1%;
+    text-decoration: none;
+}
+
+.last1nav{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+
+.last1nav h5{
+    color: #7C20BE;
+    font-size: 15px;
+}

@@ -1,0 +1,133 @@
+.Sec3body{
+    /* margin-top: 20px; */
+    background-color:#E5E5E5;
+    /* padding-top: 75px; */
+    margin: 0 auto;
+    border: 6px solid red;
+    border-style: none;
+
+}
+.Sec3body h4{
+    padding-top: 75px; 
+    text-align: center;
+    font-size: 33px;
+    color: black;
+}
+.active{
+    display: none;
+}
+
+.sec3btn button{
+    margin: 0 auto;
+    border: 2px solid #7C20BE;
+    color: #7C20BE;
+    background-color: #EDE9EF;
+    /* width: 50px; */
+    padding: 10px 45px;
+    border-radius: 5px;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+}
+
+.sec3btn button:hover{
+    background-color: #7C20BE;
+    color: white;
+    padding: 8px 35px;
+
+}
+
+
+.sec3btnjj{
+    padding: 3% 8%;
+    /* display: flex; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    /* gap: 0px; */
+    /* padding-left: 100px; */
+
+
+
+
+    /* gap: 25px;
+    border: 3px solid red;
+    border-style: none;
+    width: 87%; 
+    margin: 0 auto; */
+    /* padding: 40px 20px;  */
+
+
+
+    /* border: 2px solid green;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; */
+
+
+
+}
+.sec3btnjj img{
+    /* width: 25%; */
+    border: 2px solid red;
+    text-align: center;
+    margin: 2% 2%;
+    border-style: none;
+    /* padding: 10px 10px; */
+    /* align-items: center; */
+}
+@media (max-width:400px) {
+    .sec3btnjj img{
+        /* flex-direction: column; */
+        /* align-items: center;*/
+        border: 3px solid red; 
+        width: 90%;
+        border-style: none;
+    }
+    
+}
+
+
+/* @media (max-width:2200px) {
+    .sec3btnflex{
+        margin: 0 auto;
+        padding: 30px px;
+        width: 320px;
+        border:  3px solid red;
+
+    } 
+}  */
+
+/* @media (max-width:1300px) {
+    .sec3btnflex{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    
+}
+
+@media (max-width:1300px) {
+    .sec3btnflex img{
+        margin: 0 auto;
+        padding: 30px 10px;
+
+    }
+    
+}
+@media (max-width:360px) {
+    .sec3btnflex img{
+        margin: 0 auto;
+        padding: 30px 5px;
+
+    }
+    
+}
+@media (max-width:280px) {
+    .sec3btnflex img{
+        margin: 0 auto;
+        padding: 20px 0px;
+        width: 160px;
+
+    }
+}
+*/

@@ -1,0 +1,172 @@
+.Buybody{
+    /* border: 1px solid red; */
+    padding: 10% 25%;
+    
+}
+
+@media (max-width:600px) {
+    .Buybody{
+        padding: 6% 6%;
+    }
+}
+
+.Buyform{
+    line-height: 250%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 55px; 
+    background-color: #EEEDEE;
+
+}
+
+.Buyform h1{
+    font-size: 25px;
+    padding: 5% 20%;
+    color: black;
+}
+
+.Selllink{
+    display: flex;
+    /* border: 1px solid red; */
+    border-style: none;
+    border-radius: 40px;
+    width: 75%;
+    margin: 0 auto;
+    height: 65%;
+    justify-content: space-around;   
+    background-color: #E4E4E4;
+
+}
+
+
+.Selllink2{
+    border: 2px solid green;
+    height: 100%;
+    width: 50%;
+    border-radius: 40px;
+    position: relative;
+    color: black;
+    border-style: none;
+    background-color: white;
+}
+
+.Selllink1{
+    text-decoration: none;
+    border: 2px solid green;
+    border-style: none;
+    height: 100%;
+    width: 50%;
+    border-radius: 40px;
+    color: black;
+    background-color: #E4E4E4;
+}
+
+.input1 h5{
+    border: 1px solid rgb(0, 0, 0);
+    max-width: 80%;
+    width: 70%;
+    color: black;
+    border-style: none;
+    margin: 0 auto;
+    text-align: start;
+    margin-bottom: 10px;
+} 
+
+.input1 select{
+    max-width: 80%;
+    width: 70%;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+    margin: 0 auto;
+    padding: 2% 0%;
+}
+
+.inputt2 h5{
+    border: 1px solid rgb(0, 0, 0);
+    max-width: 80%;
+    width: 70%;
+    color: black;
+    border-style: none;
+    margin: 0 auto;
+    text-align: start;
+    margin-bottom: 10px;
+} 
+
+.input2 select{
+    max-width: 80%;
+    width: 70%;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+    margin: 0 auto;
+    padding: 2% 0%;
+}
+
+.input3 h5{
+    border: 1px solid rgb(0, 0, 0);
+    max-width: 80%;
+    width: 70%;
+    color: black;
+    border-style: none;
+    margin: 0 auto;
+    text-align: start;
+    margin-bottom: 10px;
+} 
+
+.input3 input{
+    max-width: 80%;
+    width: 70%;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+    margin: 0 auto;
+}
+
+
+
+/* .inflex{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    border: 1px solid red;
+    width: 70%;
+    margin: 0 auto;
+    gap: 0%;
+    height: 50%;
+    position: absolute; 
+}
+ 
+.inflex p{
+    border: 1px solid red;
+    width: 30%;
+    background-color: white;
+}
+
+.input3 input{
+    border: 1px solid red; 
+    height: 75%;
+    position: relative;
+    margin-right: 90%;
+
+    max-width: 80%;
+    width: 170%;
+   color: black;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 100%;
+}   */
+
+.con{
+    width: 70%;
+    background-color:#7C20BE;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    text-decoration: none;
+
+}
